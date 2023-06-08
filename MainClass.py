@@ -34,12 +34,12 @@ class main:
                 return
 
     option_Check()
-input("Please enter yes or no if you'd like to continue")
-if "yes", "y"
+continue = input("Please enter yes or no if you'd like to continue")
+if continue == "yes", "y";
     main()
-if "no", "n"
+elif continue == "no", "n":
     exit
-else
+else:
     print("Please  enter a proper response")
     
     

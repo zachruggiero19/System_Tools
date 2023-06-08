@@ -34,5 +34,13 @@ class main:
                 return
 
     option_Check()
+input("Please enter yes or no if you'd like to continue")
+if "yes", "y"
+    main()
+if "no", "n"
+    exit
+else
+    print("Please  enter a proper response")
+    
     
         

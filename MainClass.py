@@ -34,10 +34,10 @@ class main:
                 return
 
     option_Check()
-continue = input("Please enter yes or no if you'd like to continue")
-if continue == "yes", "y";
+continueProgram = input("Please enter yes or no if you'd like to continue")
+if continueProgram == "yes" or "y":
     main()
-elif continue == "no", "n":
+elif continueProgram == "no" or "n":
     exit
 else:
     print("Please  enter a proper response")

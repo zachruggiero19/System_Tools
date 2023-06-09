@@ -29,4 +29,14 @@ class NetworkMonitor:
         return
         #sys.exit()
         
+    def nmap_Scanner():
+        nm = nmap.PortScanner()
+        nm.scan('192.168.0.0/24', '21-22-80-443')
+        nm.command_line()
+
+    def nmap_OS():
+        nm = nmap.PortScanner()
+        nm.scan('192.168.0.0/24', arguments = str = 'O')
+        nm.command_line()
+        
           

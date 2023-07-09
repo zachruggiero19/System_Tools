@@ -1,5 +1,6 @@
 import sys
 import wmi
+import nmap
 
 
 class NetworkMonitor:
@@ -36,7 +37,7 @@ class NetworkMonitor:
 
     def nmap_OS():
         nm = nmap.PortScanner()
-        nm.scan('192.168.0.0/24', arguments = str = 'O')
+        nm.scan('192.168.0.0/24', arguments= "O", ports = None, timeout= None)
         nm.command_line()
         
           
